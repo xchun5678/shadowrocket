@@ -1,0 +1,20 @@
+
+#!name=融合模块终极优化版
+#!desc=适用于 Shadowrocket 的多 App 广告净化规则（哔哩哔哩 / YouTube / 小红书 / 网易云 等）
+#!author=小春整理
+#!homepage=https://github.com/xchun5678/surge
+#!version=2025.06.20
+
+#!arguments=哔哩哔哩·显示最常访问:false, 哔哩哔哩·屏蔽置顶广告:true, YouTube ·屏蔽上传按钮:true, YouTube ·屏蔽选段按钮:true, YouTube ·屏蔽短片按钮:true, YouTube ·字幕翻译语言:zh-Hans, YouTube ·歌词翻译语言:zh-Hans
+#!arguments-desc=参数说明：YouTube字幕翻译语言默认中文，填 off 关闭；歌词翻译语言同理。
+
+[Rule]
+DOMAIN, api.biliapi.com, REJECT
+DOMAIN, appcloud.zhihu.com, REJECT
+# 规则内容省略...
+
+[URL Rewrite]
+^https?://(www\.)?g.cn https://www.google.com 302
+
+[MITM]
+hostname = *.google.cn

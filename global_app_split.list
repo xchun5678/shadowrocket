@@ -1,0 +1,52 @@
+
+# 🇨🇳 国内常用服务直连
+DOMAIN-SUFFIX,wechat.com,DIRECT
+DOMAIN-SUFFIX,alipay.com,DIRECT
+DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,tmall.com,DIRECT
+DOMAIN-SUFFIX,jd.com,DIRECT
+DOMAIN-SUFFIX,bilibili.com,DIRECT
+DOMAIN-SUFFIX,iqiyi.com,DIRECT
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,163.com,DIRECT
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,mi.com,DIRECT
+DOMAIN-SUFFIX,meituan.com,DIRECT
+DOMAIN-SUFFIX,dianping.com,DIRECT
+DOMAIN-SUFFIX,12306.cn,DIRECT
+
+# 🌍 国外社交与通讯走代理
+DOMAIN-SUFFIX,telegram.org,Proxy
+DOMAIN-SUFFIX,t.me,Proxy
+DOMAIN-SUFFIX,twitter.com,Proxy
+DOMAIN-SUFFIX,facebook.com,Proxy
+DOMAIN-SUFFIX,instagram.com,Proxy
+DOMAIN-SUFFIX,snapchat.com,Proxy
+DOMAIN-SUFFIX,line.me,Proxy
+DOMAIN-SUFFIX,whatsapp.com,Proxy
+DOMAIN-SUFFIX,discord.com,Proxy
+DOMAIN-SUFFIX,reddit.com,Proxy
+
+# 🎬 国外媒体与娱乐
+DOMAIN-SUFFIX,youtube.com,Proxy
+DOMAIN-SUFFIX,ytimg.com,Proxy
+DOMAIN-SUFFIX,netflix.com,Proxy
+DOMAIN-SUFFIX,hulu.com,Proxy
+DOMAIN-SUFFIX,spotify.com,Proxy
+DOMAIN-SUFFIX,pandora.com,Proxy
+DOMAIN-SUFFIX,twitch.tv,Proxy
+DOMAIN-SUFFIX,disneyplus.com,Proxy
+
+# 💼 国外生产力工具
+DOMAIN-SUFFIX,google.com,Proxy
+DOMAIN-SUFFIX,gmail.com,Proxy
+DOMAIN-SUFFIX,drive.google.com,Proxy
+DOMAIN-SUFFIX,dropbox.com,Proxy
+DOMAIN-SUFFIX,zoom.us,Proxy
+DOMAIN-SUFFIX,slack.com,Proxy
+DOMAIN-SUFFIX,notion.so,Proxy
+DOMAIN-SUFFIX,github.com,Proxy
+DOMAIN-SUFFIX,gitlab.com,Proxy
+
+# 🌐 默认规则（未命中走代理或直连）
+FINAL,DIRECT
